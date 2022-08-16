@@ -9,7 +9,7 @@ class Settings
     public const string path = @"C:\Users\haiki\Pictures";
 
     // Used for providing the link for web server.
-    public const string domain = "localhost";
+    public const string domain = "http://localhost/";
 
     // Image location inside the path
     public static readonly string imageLocation = Path.Combine("Files", "Images"); // Basically outputs \Files\Images by default
